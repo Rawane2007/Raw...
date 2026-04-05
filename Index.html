@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty by Raw</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Beauty by Raw</header>
+<input type="text" id="search" placeholder="Search products..." onkeyup="searchProduct()">
+<div class="container">
+
+  <!-- The Ordinary -->
+  <div class="product">
+    <button class="toggle-btn" onclick="toggleInfo(this)">i</button>
+    <img src="images/niacinamide.jpg" alt="Niacinamide">
+    <h3>Niacinamide 10% + Zinc</h3>
+    <div class="info-box">
+      <p><b>Benefits:</b> Reduces acne, controls oil</p>
+      <p><b>Usage:</b> Morning and night</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <button class="toggle-btn" onclick="toggleInfo(this)">i</button>
+    <img src="images/hyaluronic.jpg" alt="Hyaluronic Acid">
+    <h3>Hyaluronic Acid</h3>
+    <div class="info-box">
+      <p><b>Benefits:</b> Deep hydration</p>
+      <p><b>Usage:</b> Apply on damp skin</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <button class="toggle-btn" onclick="toggleInfo(this)">i</button>
+    <img src="images/aha-bha.jpg" alt="AHA+BHA">
+    <h3>AHA 30% + BHA 2%</h3>
+    <div class="info-box">
+      <p><b>Benefits:</b> Exfoliates skin, removes dark spots</p>
+      <p><b>Usage:</b> Once per week</p>
+    </div>
+  </div>
+
+  <!-- Medicube -->
+  <div class="product">
+    <button class="toggle-btn" onclick="toggleInfo(this)">i</button>
+    <img src="images/medicube-red.jpg" alt="Medicube Red Serum">
+    <h3>Medicube Red Serum</h3>
+    <div class="info-box">
+      <p><b>Benefits:</b> Treats acne and soothes skin</p>
+      <p><b>Usage:</b> Daily after toner</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <button class="toggle-btn" onclick="toggleInfo(this)">i</button>
+    <img src="images/medicube-collagen.jpg" alt="Medicube Collagen Cream">
+    <h3>Medicube Collagen Cream</h3>
+    <div class="info-box">
+      <p><b>Benefits:</b> Firms skin, reduces wrinkles</p>
+      <p><b>Usage:</b> Use as final step</p>
+    </div>
+  </div>
+
+  <!-- Purito -->
+  <div class="product">
+    <button class="toggle-btn" onclick="toggleInfo(this)">i</button>
+    <img src="images/purito-centella.jpg" alt="Purito Centella">
+    <h3>Purito Centella Serum</h3>
+    <div class="info-box">
+      <p><b>Benefits:</b> Calms skin, reduces redness</p>
+      <p><b>Usage:</b> Apply daily after cleansing</p>
+    </div>
+  </div>
+
+  <!-- Dr Althea -->
+  <div class="product">
+    <button class="toggle-btn" onclick="toggleInfo(this)">i</button>
+    <img src="images/vitamin-c.jpg" alt="Vitamin C Serum">
+    <h3>Vitamin C Serum</h3>
+    <div class="info-box">
+      <p><b>Benefits:</b> Brightens skin, fades dark spots</p>
+      <p><b>Usage:</b> Morning with sunscreen</p>
+    </div>
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
